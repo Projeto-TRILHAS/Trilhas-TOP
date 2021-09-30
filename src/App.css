@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  opacity: 1;
+}
+
+.home,
+.dicastrilhas,
+.ranking,
+/* .contact-us, */
+.sign-up,
+.marketing,
+/* .natural, */
+.trilhainformation,
+/* .natura, */
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background:rgba(230, 214, 214, 0.39);
+  background-image:url('./images/bujula.webp') ;
+  background-size: cover;  
+  background-attachment: fixed;
+  min-height: 810px;
+  opacity: 0.8;
+}
+
+.home {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(12, 2, 2);
+  position: relative;
+  width: 100%;
+  
+}
+.home:before {
+	content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+  right: 0;
+}
+
+.dicastrilhas{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 100px;
+}
+
+.ranking {
+  color: #fff;
+  font-size: 100px; 
+}
+
+/* .contact-us {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+.sign-up {
+ 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* .natural{
+ 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+.app container{
+  font-family: sans-serif;
+  height: calc(100vh - 34px - 50px - 64px);
+  padding: 2rem;
+  background-image: url('./images/bujula.webp');
+  
+}
+
+ .custom_card{
+  border-radius:10px;
+  background: rgba(273, 170, 170, 0.267);
+  width: 18rem;
+  text-align:center;
+ }
+
+ .top_image_card{
+   width:100%;
+   
+ }
+ .img_card{
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  width:100%;
+ }
+ .title_card{
+  font-size:2rem; 
+ }
+ .title_card:hover{
+  font-size:2.3rem; 
+ }
+
+
+.natura {
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.img{
+  opacity: 0.7;
+  border-radius: 30px;
+  width: 100%;
+}
