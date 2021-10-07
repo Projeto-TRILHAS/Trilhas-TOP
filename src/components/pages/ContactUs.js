@@ -1,7 +1,13 @@
-/* import React from 'react';
+import React from 'react';
 import '../../App.css';
 
 export default function ContactUs() {
-  return <h1 className='contact-us'>CONTACT</h1>;
+  return <div>
+    <h1 className='contact-us'>CONTACT</h1>;
+    <h1 className='contact-us'>CONTACT</h1>;
+    <h1 className='contact-us'>CONTACT</h1>;
+    <h1 className='contact-us'>CONTACT</h1>;
+
+    </div>
+
 }
- */

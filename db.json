@@ -2,20 +2,100 @@
     "trilhas":[
         {
             "id":1,
-            "nome":"teatro amazonas",
-            "descricao":"es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
-            "img_URL":["https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg","https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
+            "title":"teatro amazonas",
+            "description":"O Teatro Amazonas, desde a sua inauguração, viu apresentar-se no seu palco todo tipo de espetáculo: óperas, operetas, musicais, peças de teatro, shows de cantores líricos e populares, festivais, grupos de dança, bandas de música, corais, orquestras e tantos outros",
+            "imgs":["https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg","https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
             ],
-            "comentarios":[
+            "comments":[
                 {
-                 "usuario":1,
-                 "texto":"me encanto el teatro amazonas, es magnifico, su historia es increible",
-                 "likes":[
-                     {
-                         "usuario":1
-                     }
+                "user":1,
+                "text":"“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
+                "likes":[
+                    {
+                        "usuario":1
+                    }
                 ],
-                 "dislikes":0   
+                "dislikes":0   
+                }
+            ],
+            "puntuacion":1
+        },
+        {
+            "id":2,
+            "title":"teatro amazonas",
+            "description":"es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
+            "imgs":["https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg","https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
+            ],
+            "comments":[
+                {
+                "user":1,
+                "text":"“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
+                "likes":[
+                    {
+                        "usuario":1
+                    }
+                ],
+                "dislikes":0   
+                }
+            ],
+            "puntuacion":1
+        },
+        {
+            "id":3,
+            "title":"teatro amazonas",
+            "description":"es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
+            "imgs":["https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg","https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
+            ],
+            "comments":[
+                {
+                "user":1,
+                "text":"“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
+                "likes":[
+                    {
+                        "usuario":1
+                    }
+                ],
+                "dislikes":0   
+                }
+            ],
+            "puntuacion":1
+        },  
+        {
+            "id":4,
+            "title":"teatro amazonas",
+            "description":"es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
+            "imgs":["https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg","https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
+            ],
+            "comments":[
+                {
+                "user":1,
+                "text":"“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
+                "likes":[
+                    {
+                        "usuario":1
+                    }
+                ],
+                "dislikes":0   
+                }
+            ],
+            "puntuacion":1
+        },  
+        {
+            "id":5,
+            "title":"teatro amazonas",
+            "description":"es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
+            "imgs":["https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg","https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
+            ],
+            "comments":[
+                {
+                "user":1,
+                "text":"“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
+                "likes":[
+                    {
+                        "usuario":1
+                    }
+                ],
+                "dislikes":0   
                 }
             ],
             "puntuacion":1
@@ -24,7 +104,7 @@
     "usuarios":[
         {   
             "id":1,
-            "nome":"pepito perez",
+            "name":"pepito perez",
             "avatar":"https://www.creartuavatar.com/images/m7.svg",
             "email":"pepitoperez@gmail.com",
             "password":"P@ssw0rd",

@@ -1,0 +1,134 @@
+.info-container {
+    margin-top: 05%;
+    justify-content: center;
+    flex-direction: column-reverse ;
+    display: flex;
+    background-color: white;
+    color: black;
+    /* height: 70vh; */
+    padding: 10px 0 10px 0;
+}
+
+.info-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 100px 0 100px;
+}
+
+.info-desc > h3 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: darkcyan;
+}
+
+.info-desc > p {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.info-desc > ol {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.info-desc > li {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.info-desc > ul {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.info-img {
+    width: 45%;
+    display: flex;
+    align-self: center;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.info-img :hover {
+    transform: translate(-15px, -15px);
+    transition: .5s cubic-bezier(.5,.03,.41,1);
+}
+
+.guiadas{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    overflow: hidden;
+
+}
+
+.def-trilha{
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.def-trilha > div{
+    width: 50%;
+}
+.def-trilha > div > p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 10px; 
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .about-container {
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+    }
+
+    .info-container {
+        margin-top: 25%;
+    }
+
+    .info-desc {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px 50px 20px;
+    }
+
+    .info-desc > h3 {
+    font-size: 20px;
+    text-align: center;
+    }
+
+    .info-img {
+    width: 100%;
+    }
+    .def-trilha{
+        display: block;
+    
+    }
+    .def-trilha > div{
+        width: 100%;
+    }
+
+}
+@media only screen and (device-width: 768px) {
+/*    .info-container {
+        margin-top: 30%;
+    } */
+}
+@media only screen and (max-device-width: 480px) {
+    .info-container {
+        margin-top: 600px;
+    }
+    .def-trilha > div{
+        width: 100%;
+    }
+}
+

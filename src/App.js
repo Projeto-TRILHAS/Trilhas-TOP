@@ -1,41 +1,44 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from '../src/components/navbar/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Dicastrilhas from './components/pages/Dicastrilhas';
+import Dicas from './components/pages/Dicas';
 import Ranking from './components/pages/Ranking';
-/* import ContactUs from './components/pages/ContactUs'; */
+import ContactUs from './components/pages/ContactUs';
 import SignUp from './components/pages/SignUp';
-/* import Test from './components/pages/Test'; */
-/* import Natura from './components/pages/Natura'; */
-import TrilhaInformation from './components/pages/TrilhaInformation';
+import Passo from './components/pages/Passo';
+import Cover from './components/cover/Cover';
+import InfoTrilha from './components/infoTrilha/InfoTrilha';
 
 
 
-
+//import Footer from './components/footer/Footer';
+//import Slider from './components/slides/Slider';
 
 function App() {
   return (
-    <div>
-    <Router>
     
+    <Router>
+        
+      <Router>
+      
+      </Router>
+      <Cover/>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/trilhainformation' exact component={TrilhaInformation} />
-        <Route path='/dicastrilhas' component={Dicastrilhas} />
+        <Route path='/dicas' component={Dicas} />
         <Route path='/ranking' component={Ranking} />
-        {/* <Route path='/contact-us' component={ContactUs} /> */}
-		    <Route path='/sign-up' component={SignUp} />
-      {/*   <Route path='/test' component={Test} /> */}
-        {/* <Route path='/natura' component={Natura} /> */}
-        
+        <Route path='/contact-us' component={ContactUs} />
+	      <Route path='/sign-up' component={SignUp} />
+        <Route path='/passo' component={Passo} />
+        <Route path='/infotrilha' component={InfoTrilha} />
       </Switch>
+    
+      
     </Router>
-
-
-   </div> 
+    
   );
 }
 
