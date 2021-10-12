@@ -1,6 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import CardsApi from '../CardsApi'
+import CardsApi from '../pack-trilhas/CardsApi'
+import Navbar from '../navbar/Navbar';
+
 export default function Ranking() {
-  return <CardsApi/>;
+  return <> 
+          <Navbar/>
+          <CardsApi/>
+        </>;
 }

@@ -1,10 +1,17 @@
 import React from 'react';
 import '../../App.css';
+import CarruselGet from '../carrusel/CarruselGet';
+import Navbar from '../navbar/Navbar';
+import LCards from '../pack-trilhas/LCards';
+
+
 
 export default function Home() {
   return (
     <>
-      <h1 className='home'>EPIC</h1>
+      <Navbar/>
+      <CarruselGet/>
+      <LCards key="23123"/>
     </>
   );
 }
