@@ -1,8 +1,10 @@
 import React from 'react';
 import '../../App.css';
+import Navbar from '../navbar/Navbar';
+
 
 export default function Dicas() {
-  return <div  className="info-container">
+  return <><Navbar/> <div  className="info-container">
 
     <div className="info-container">
     <div className="info-desc">
@@ -45,11 +47,13 @@ export default function Dicas() {
           <h3>O que levar para trilha </h3>
           <br/>
 
+          <h3>01 . Documento com foto e carteira do plano de saúde.</h3>
+
+           <br/>
+
+           <h3>02 . Itens essenciais para levar</h3>
 
           <ul>
-            <p>01 . Documento com foto e carteira do plano de saúde.</p>
-            <br/>
-            <p>02 . Itens essenciais para levar</p>
             <br/>
             <li>Mochila ataque de 10L a 40L.</li>
             <li>Capa de chuva.</li>
@@ -136,5 +140,5 @@ export default function Dicas() {
         
       </div>
       </div>
-      </div>
+      </div></>
 }
