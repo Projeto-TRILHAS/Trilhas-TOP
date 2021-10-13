@@ -18,7 +18,7 @@ componentDidMount(){
             <div className="card-body">
               <h5 className="card-title">{this.props.trilha.title}</h5>
               <p className="card-text">{this.props.trilha.description}</p>
-              <button className="btn btn-primary" onClick={this.like.bind(this)}>{this.props.trilha.points}<i class="bi bi-hand-thumbs-up"></i></button>
+              <button className="btn btn-primary" onClick={this.like.bind(this)}>{this.props.trilha.points}<i className="bi bi-hand-thumbs-up"></i></button>
             </div>
           </div>
       

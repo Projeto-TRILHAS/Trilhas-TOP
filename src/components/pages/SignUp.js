@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import LoginAdm from '../login-Adm/Login-Adm';
 
 
 export default function SignUp() {
   return (
-  <div> 
-    5555555555555
-    </div>
+   
+    <LoginAdm/>
+  
   )
 }
