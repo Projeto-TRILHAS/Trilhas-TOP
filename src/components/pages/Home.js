@@ -7,7 +7,6 @@ export default function Home() {
     <>
       <h1 className='home'>EPIC</h1>
       <Form/>
-
     </>
   );
 }

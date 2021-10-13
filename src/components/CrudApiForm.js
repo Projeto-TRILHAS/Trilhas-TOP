@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { helpHttp } from "../helpers/helpHttp";
 import CrudForm from "./CrudForm";
 
-
 const CrudApi = () =>{
     const [db, setDb] = useState(null);
     const [dataToEdit, setDataToEdit] = useState(null);
@@ -46,8 +45,7 @@ const CrudApi = () =>{
             setDataToEdit={setDataToEdit} 
             />            
         </div>
-    );    
-    
+    );        
 }
 
 export default CrudApi

@@ -23,9 +23,6 @@ const CrudForm = ({createData,updateData,dataToEdit,setDataToEdit}) =>{
         }
         
     }, [dataToEdit]);
-
-
-
     
     const handleChange =(e)=>{
         setForm({
@@ -34,8 +31,6 @@ const CrudForm = ({createData,updateData,dataToEdit,setDataToEdit}) =>{
         });
     }
 
-    
-
     const validateForm = (form) => {
         let errors = {};
         let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
@@ -43,28 +38,21 @@ const CrudForm = ({createData,updateData,dataToEdit,setDataToEdit}) =>{
         let regexComments = /^.{1,255}$/;
       
         if (!form.nome.trim()) {
-          errors.nome = "El campo 'Nombre' es requerido";
+          errors.nome = "O campo 'Nome' é requerido";
         } else if (!regexName.test(form.nome.trim())) {
-          errors.nome = "El campo 'Nombre' sólo acepta letras y espacios en blanco";
-        }
-      
-        if (!form.email.trim()) {
-          errors.email = "El campo 'Email' es requerido";
+          errors.nome = "O campo 'Nome' só aceita letras e espaços em branco";
+        }else if (!form.email.trim()) {
+          errors.email = "O campo 'Email' é requerido";
         } else if (!regexEmail.test(form.email.trim())) {
-          errors.email = "El campo 'Email' es incorrecto";
-        }
-      
-        if (!form.assunto.trim()) {
-          errors.assunto = "El campo 'Asunto a tratar' es requerido";
-        }
-      
-        if (!form.mensagem.trim()) {
-          errors.mensagem = "El campo 'Comentarios' es requerido";
+          errors.email = "O campo 'Email' é incorrecto";
+        }else if (!form.assunto.trim()) {
+          errors.assunto = "O campo 'Assunto a tratar' é requerido";
+        }else if (!form.mensagem.trim()) {
+          errors.mensagem = "O campo 'Comentários' é requerido";
         } else if (!regexComments.test(form.mensagem.trim())) {
           errors.mensagem =
-            "El campo 'Comentarios' no debe exceder los 255 caracteres";
-        }
-      
+            "O campo 'Comentários' não deve exceder los 255 caracteres";
+        }  
         return errors;
       };
 
@@ -78,37 +66,27 @@ const CrudForm = ({createData,updateData,dataToEdit,setDataToEdit}) =>{
         setErrors(validateForm(form));
       };
 
-    const handleSubmit =(e)=>{
+      const handleSubmit =(e)=>{
         e.preventDefault();
 
-        setErrors(validateForm(form));
-        /*if(!form.nome || !form.email || !form.assunto || !form.mensagem ){
-            alert("Datos incompletos");
-            return;
-        }*/
-
-        //isEmail (str [, form.email])
+        setErrors(validateForm(form));        
 
         if (Object.keys(errors).length === 0) {
-            alert("Enviando Formulario");
-                  
-          } else {
-            return;
-          }
+            alert("Enviando Formulario");                  
+        } else {
+          return;
+        }
         
-
         if(form.id === null){
-            createData(form)
-           } 
-
+          createData(form)
+        } 
         handleReset();
     }
 
     const handleReset =(e)=>{
-        setForm(initialForm);
-        setDataToEdit(null);
+      setForm(initialForm);
+      setDataToEdit(null);
     }  
-
         return(
             <div>            
                 <Form onSubmit= {handleSubmit}>
@@ -122,8 +100,7 @@ const CrudForm = ({createData,updateData,dataToEdit,setDataToEdit}) =>{
                             onBlur={handleBlur}
                             onChange={handleChange} 
                             value= {Form.nome}
-                            required />
-                            
+                            required />                           
                         </Col>
                     </FormGroup>
                     {errors.nome && <p style={styles}>{errors.nome}</p>}
@@ -176,5 +153,4 @@ const CrudForm = ({createData,updateData,dataToEdit,setDataToEdit}) =>{
         </div>
     )    
 }
-
 export default CrudForm;
