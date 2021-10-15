@@ -1,6 +1,126 @@
 {
   "trilhas": [
     {
+
+      "id": 7,
+      "title": "Museu do Porto",
+      "imgs": "https://www.manaus.am.gov.br/wp-content/uploads/2021/08/porto13.jpg",
+      "points": 1,
+      "ranking": 5
+    },
+    {
+      "id": 9,
+      "title": "Zoológico del CIGS",
+      "imgs": "https://www.casadedoda.com/wp-content/uploads/2019/01/zoologico-do-cigs-4-1024x576.jpg",
+      "ranking": 3,
+      "points": 1
+    },
+    {
+      "id": 10,
+      "title": "Mindu Municipal Park",
+      "imgs": "https://portalgazetadoamazonas.com.br/wp-content/uploads/2021/02/Parque-Municipal-do-Mundi-Foto-Reproducao.jpg",
+      "ranking": 3,
+      "points": 3
+    },
+    {
+      "id": 11,
+      "title": "Seringal the museum",
+      "imgs": "https://static.smarttravelapp.com/data/pois/20503_M1_1527488375.jpg",
+      "ranking": 2,
+      "points": 1
+    },
+    {
+      "id": 12,
+      "title": "Relógio Municipal",
+      "imgs": "https://cdn.emtempo.com.br/img/normal/140000/Falta-de-banheiros-publicos-na-cidade-de-Manaus_FO_00143270_10.jpg?xid=496089",
+      "ranking": 1,
+      "points": 6
+    },
+    {
+      "id": 13,
+      "title": "Centro de Arqueologia",
+      "imgs": "https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/Museu-de-Arqueologia-Michael-Dantas.jpg",
+      "ranking": 1,
+      "points": 1
+    },
+    {
+      "id": 14,
+      "title": "Museu Numismática Bernardo Ramos",
+      "imgs": "https://i.pinimg.com/736x/08/2f/94/082f94ec61c0257b2e08ddb6127eccf3.jpg",
+      "points": 1,
+      "ranking": 4
+    },
+    {
+      "id": 16,
+      "title": "Parque Jeferson Peres - Manaus",
+      "imgs": "https://mapio.net/images-p/43322841.jpg",
+      "points": 1,
+      "ranking": 2
+    },
+    {
+      "id": 17,
+      "title": "Galeria do Largo",
+      "imgs": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/36/e9/2e/frente-da-entrada-da.jpg?w=700&h=-1&s=1",
+      "ranking": 2,
+      "points": 1
+    },
+    {
+      "id": 18,
+      "title": "Arquipélago de Anavilhanas",
+      "imgs": "https://marsemfim.com.br/wp-content/uploads/2020/07/AA-c%C3%B3pia-1.jpg",
+      "ranking": 2,
+      "points": 1
+    },
+    {
+      "id": 19,
+      "title": "Cachoeiras e cavernas na Amazônia",
+      "imgs": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/cf/2a/c2.jpg",
+      "points": 13,
+      "ranking": 5
+    },
+    {
+      "id": 20,
+      "title": "Parque Ecológico Janauari ",
+      "imgs": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/51/cd/82/lake-janauari-ecological.jpg?w=1200&h=-1&s=1",
+      "description": "ousdfuiosduifguizfg",
+      "ranking": 5,
+      "points": 17
+    },
+    {
+      "title": "isbeli",
+      "imgs": "https://miro.medium.com/max/724/1*m29KV3lb1m0FyvtJUl6ALA.png",
+      "description": "ousdfuiosduifguizfg",
+      "ranking": 1,
+      "id": 21,
+      "points": 6
+    },
+    {
+      "title": "Toti",
+      "imgs": "https://totidiversidade.com.br/assets/img/icon_logo_toti.202d2564.svg",
+      "description": "Diversidade",
+      "ranking": 5,
+      "id": 22,
+      "points": 1
+    }
+  ],
+  "useradmin": [
+    {
+      "id": 1,
+      "username": "risbeli",
+      "email": "isbeliramirez85@gmail.com",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b"
+    },
+    {
+      "id": 2,
+      "username": "bdereck",
+      "email": "dereck@gmail.com",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b"
+    },
+    {
+      "id": 3,
+      "username": "isbeli",
+      "email": "isbeliramirez8@gmail.com",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b
       "id": 1,
       "title": "teatro amazonas",
       "description": "O Teatro Amazonas, desde a sua inauguração, viu apresentar-se no seu palco todo tipo de espetáculo: óperas, operetas, musicais, peças de teatro, shows de cantores líricos e populares, festivais, grupos de dança, bandas de música, corais, orquestras e tantos outros",
@@ -151,6 +271,7 @@
       "email": "exaezsa@gmail.com",
       "assunto": "Informação",
       "mensagem": "qwertty"
+
     }
   ]
 }

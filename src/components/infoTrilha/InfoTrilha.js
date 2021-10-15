@@ -3,9 +3,11 @@ import "./InfoTrilha.css";
 import caminho from "../../assets/images/caminho.png";
 import guiadas from "../../assets/images/guiadas.jpeg";
 import autoguiadas from "../../assets/images/autoguiadas.jpg";
+import Navbar from "../navbar/Navbar";
 
 const InfoTrilha = () => {
 return (
+    <> <Navbar/>
     <div className="info-container">
     <div className="info-desc">
         <h3>Você saberia definir o que é trilha?</h3>
@@ -84,7 +86,7 @@ return (
         <br/>
         <br/>
         <br/>
-    </div>
+    </div></>
 
 );
 };
