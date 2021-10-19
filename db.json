@@ -1,7 +1,6 @@
 {
   "trilhas": [
     {
-
       "id": 7,
       "title": "Museu do Porto",
       "imgs": "https://www.manaus.am.gov.br/wp-content/uploads/2021/08/porto13.jpg",
@@ -120,127 +119,7 @@
       "id": 3,
       "username": "isbeli",
       "email": "isbeliramirez8@gmail.com",
-      "password": "827ccb0eea8a706c4c34a16891f84e7b
-      "id": 1,
-      "title": "teatro amazonas",
-      "description": "O Teatro Amazonas, desde a sua inauguração, viu apresentar-se no seu palco todo tipo de espetáculo: óperas, operetas, musicais, peças de teatro, shows de cantores líricos e populares, festivais, grupos de dança, bandas de música, corais, orquestras e tantos outros",
-      "imgs": [
-        "https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg",
-        "https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
-      ],
-      "comments": [
-        {
-          "user": 1,
-          "text": "“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
-          "likes": [
-            {
-              "usuario": 1
-            }
-          ],
-          "dislikes": 0
-        }
-      ],
-      "puntuacion": 1
-    },
-    {
-      "id": 2,
-      "title": "teatro amazonas",
-      "description": "es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
-      "imgs": [
-        "https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg",
-        "https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
-      ],
-      "comments": [
-        {
-          "user": 1,
-          "text": "“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
-          "likes": [
-            {
-              "usuario": 1
-            }
-          ],
-          "dislikes": 0
-        }
-      ],
-      "puntuacion": 1
-    },
-    {
-      "id": 3,
-      "title": "teatro amazonas",
-      "description": "es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
-      "imgs": [
-        "https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg",
-        "https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
-      ],
-      "comments": [
-        {
-          "user": 1,
-          "text": "“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
-          "likes": [
-            {
-              "usuario": 1
-            }
-          ],
-          "dislikes": 0
-        }
-      ],
-      "puntuacion": 1
-    },
-    {
-      "id": 4,
-      "title": "teatro amazonas",
-      "description": "es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
-      "imgs": [
-        "https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg",
-        "https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
-      ],
-      "comments": [
-        {
-          "user": 1,
-          "text": "“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
-          "likes": [
-            {
-              "usuario": 1
-            }
-          ],
-          "dislikes": 0
-        }
-      ],
-      "puntuacion": 1
-    },
-    {
-      "id": 5,
-      "title": "teatro amazonas",
-      "description": "es una trilha interesante que te permitira conocer sitios turisticos y de gran valor historico en la ciudad de manaus",
-      "imgs": [
-        "https://cultura.am.gov.br/portal/wp-content/uploads/2019/02/MFD_6475.jpg",
-        "https://teatroamazonas.com.br/wp-content/uploads/2019/03/inicial01.jpg"
-      ],
-      "comments": [
-        {
-          "user": 1,
-          "text": "“Adorei o teatro amazônico, é magnífico, sua história é incrível”",
-          "likes": [
-            {
-              "usuario": 1
-            }
-          ],
-          "dislikes": 0
-        }
-      ],
-      "puntuacion": 1
-    }
-  ],
-  "usuarios": [
-    {
-      "id": 1,
-      "name": "pepito perez",
-      "avatar": "https://www.creartuavatar.com/images/m7.svg",
-      "email": "pepitoperez@gmail.com",
-      "password": "P@ssw0rd",
-      "trilhas": [
-        1
-      ]
+      "password": "827ccb0eea8a706c4c34a16891f84e7b"
     }
   ],
   "contatos": [
@@ -264,14 +143,41 @@
       "email": "rina@gmail.co",
       "assunto": "Informação",
       "mensagem": "quero Informação"
-    },  
+    },
     {
       "id": 1633985195246,
       "nome": "jani",
       "email": "exaezsa@gmail.com",
       "assunto": "Informação",
       "mensagem": "qwertty"
-
+    },
+    {
+      "id": 1634587777718,
+      "nome": "jani",
+      "email": "exaezsa@gmail.com",
+      "assunto": "Informação",
+      "mensagem": "Quero Informação"
+    },
+    {
+      "id": 1634587837417,
+      "nome": "Marga",
+      "email": "marga@gmail.com",
+      "assunto": "Informação",
+      "mensagem": "querty"
+    },
+    {
+      "id": 1634587855374,
+      "nome": "",
+      "email": "",
+      "assunto": "",
+      "mensagem": ""
+    },
+    {
+      "id": 1634596020533,
+      "nome": "Marcos",
+      "email": "barriento@gmail.com",
+      "assunto": "Informação",
+      "mensagem": "trilhas top"
     }
   ]
 }

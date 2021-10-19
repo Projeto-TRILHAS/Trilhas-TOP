@@ -6,8 +6,6 @@ import Navbar from '../navbar/Navbar';
 import LCards from '../pack-trilhas/LCards';
 
 
-import Form from '../Form'
-
 
 export default function Home() {
   return (
@@ -17,7 +15,7 @@ export default function Home() {
       <CarruselGet/>
       <LCards key="23123"/>
       <h1 className='home'>EPIC</h1>
-      <Form/>
+      
 
     </>
   );

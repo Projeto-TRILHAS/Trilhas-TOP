@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import "./Footer.css";
+import Form from '../Form'
 
 const Footer = () => {
     return (
@@ -10,6 +11,7 @@ const Footer = () => {
         <h1>Trilhas-TOP</h1>
         <p>Brasil | Manaus- AM</p>
     </div>
+    <Form/>
     <div className="footer-contact">
         <h3>Desenvolvedores Web</h3>
         <p>Isbeli Ramirez</p>
