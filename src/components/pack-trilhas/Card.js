@@ -13,7 +13,7 @@ componentDidMount(){
     render() {
       return (
       
-          <div className="card" style={{width: "18rem"}}>
+          <div className="card m-2" style={{width: "18rem"}}>
             <img src={this.props.trilha.imgs} className="card-img-top" alt={this.props.trilha.title}/>
             <div className="card-body">
               <h5 className="card-title">{this.props.trilha.title}</h5>

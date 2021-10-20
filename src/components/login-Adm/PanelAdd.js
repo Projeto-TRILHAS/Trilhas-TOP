@@ -10,6 +10,7 @@ class PanelAdd extends React.Component{
             description: '',
             image: '',
             ranking: 1,
+            points: 1
         };
 
         this.cancelAction = this.cancelAction.bind(this);
@@ -18,6 +19,7 @@ class PanelAdd extends React.Component{
         this.onChangeTitle = this.onChangeTitle.bind(this);
         this.onChangeDescription = this.onChangeDescription.bind(this);
         this.onChangeRanking = this.onChangeRanking.bind(this);
+        this.onChangePoints = this.onChangePoints.bind(this);
     }
 
     cancelAction(e){
@@ -38,14 +40,20 @@ class PanelAdd extends React.Component{
         const ranking = parseInt(e.target.value);
         this.setState({ranking: ranking});
     }
+    onChangePoints(e){
+        const points = parseInt(e.target.value);
+        this.setState({points: points});
+    }
 
     createItem(e){
         e.preventDefault();
         const title = this.state.title;
         const imgs = this.state.imgs;
         const ranking = this.state.ranking;
+        const points = this.state.points;
         const description = this.state.description
-        this.props.onadd({title: title, imgs: imgs, description: description, ranking: ranking});
+
+        this.props.onadd({title: title, imgs: imgs, description: description,points: points, ranking: ranking});
         this.cancelAction();
     }
 

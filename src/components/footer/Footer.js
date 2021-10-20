@@ -13,13 +13,14 @@ const Footer = () => {
     <div className="footer-contact">
         <h3>Desenvolvedores Web</h3>
         <p>Isbeli Ramirez</p>
-        <p>Jani Exeaz</p>
+        <p>Jani Exaez</p>
         <p>Rina Velazquez</p>
         <p>Raquel Velazquez</p>
-        <p>Freddy Lorenzo</p>
     </div>
+
     <div className="footer-sns">
-        <div className="design-by">2021</div>
+        <div className="copyright"> © Copyright 2021</div>
+    
         <div className="sns-links">
         <a href="https://linkedin.com" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin linkedin"></i>

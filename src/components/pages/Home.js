@@ -3,6 +3,7 @@ import '../../App.css';
 import CarruselGet from '../carrusel/CarruselGet';
 import Navbar from '../navbar/Navbar';
 import LCards from '../pack-trilhas/LCards';
+import Contato from '../contato/Contato';
 
 
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar/>
       <CarruselGet/>
       <LCards key="23123"/>
+      <Contato/>
     </>
   );
 }

@@ -31,9 +31,9 @@ componentDidMount(){
                 <strong className="d-inline-block mb-2 text-primary">Trilha</strong>
                 <h3 className="mb-0">{this.props.trilha.title}</h3>
                 
-                <p className="card-text mb-auto">Descricao:{this.props.trilha.description}</p>
+                <p className="card-text mb-auto">Descrição:{this.props.trilha.description}</p>
                 <p key="unique234" className="text-card">
-                Valoracion:
+                Valorização:
                     {this.state.stars.map((x,index)=>
                         <img key={index} src={star} width='32' alt="starts"/>
                     )}

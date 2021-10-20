@@ -10,7 +10,7 @@ class Item extends React.Component{
         this.state = {
             title: '',
             imgs: '',
-            points: 0,
+            points: 1,
             ranking: 1,
             stars: []
         }
@@ -24,7 +24,7 @@ class Item extends React.Component{
             id: this.props.id,
             title: this.props.title,
             imgs: this.props.imgs,
-            points: this.props.points,
+            points: parseInt(this.props.points),
             ranking: parseInt(this.props.ranking),
             stars: Array(parseInt(this.props.ranking)).fill(1)
         });
@@ -56,7 +56,7 @@ class Item extends React.Component{
                         <img key={index} src={star} width='32' alt="starts"/>
                     )}
                     </p>
-                    <p className="text-card">Calificación: 
+                    <p className="text-card">Qualificação: 
                     <select className="text-card" value={this.state.ranking} onChange={this.onChangeRanking}>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -66,7 +66,7 @@ class Item extends React.Component{
                     </select></p>
                 </div>
                 <div className="actions">
-                    <button onClick={this.onremove}>Eliminar</button>
+                    <button onClick={this.onremove}>Delete</button>
                 </div>
             </div>
         );

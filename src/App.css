@@ -8,7 +8,6 @@
 .home,
 .dicas,
 .ranking,
-.contact-us,
 .sign-up,
 .passo {
   display: flex;
@@ -45,14 +44,6 @@
   font-size: 100px;
 }
 
-.contact-us {
-  background-color: rgb(204, 22, 22);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: rgb(241, 239, 239);
-  font-size: 100px;
-}
 
 .sign-up {
   background-color: white;

@@ -1,6 +1,4 @@
 import React from 'react';
-/* import './App.css'; */
-/* import Menu from './Menu'; */
 import List from './List';
 import NavbarAdmin from './NavbarAdmin';
 import Cookies from 'universal-cookie/es6';
@@ -112,7 +110,6 @@ class CrudTrilhas extends React.Component{
     return (
       <div className="app">
         <NavbarAdmin onsearch={this.onSearch} onadd={this.addItem}/>
-        {/* <Menu title="Trilhas-Top" onsearch={this.onSearch} onadd={this.addItem} /> */}
             <List className="list" items={this.state.copytrilhas} onremove={this.remove} onupdateranking={this.updateRanking} />
       </div>
     );
