@@ -11,7 +11,7 @@ const Footer = () => {
         <p>Brasil | Manaus- AM</p>
     </div>
     <div className="footer-contact">
-        <h3>Desenvolvedores Web</h3>
+        <h3>Desenvolvedoras Web</h3>
         <p>Isbeli Ramirez</p>
         <p>Jani Exaez</p>
         <p>Rina Velazquez</p>

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import { helpHttp } from "../helpers/helpHttp";
 import CrudForm from "./CrudForm";
@@ -20,22 +21,21 @@ const CrudApi = () =>{
       })
     },[]);
 
-    const createData = (data) => {
-      data.id = Date.now();
-      //console.log(data);
-  
-      let options = {
-        body: data,
-        headers: { "content-type": "application/json" },
-      };
-  
-      api.post(url, options).then((res) => {
-        //console.log(res);
-        if (!res.err) {
-          setDb([...db, res]);
-        } 
-      });
+    function createData(data) {
+    data.id = Date.now();
+    //console.log(data);
+    let options = {
+      body: data,
+      headers: { "content-type": "application/json" },
     };
+
+    api.post(url, options).then((res) => {
+      //console.log(res);
+      if (!res.err) {
+        setDb([...db, res]);
+      }
+    });
+  }
 
     return(
         <div>
