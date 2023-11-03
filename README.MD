@@ -21,5 +21,8 @@ Os usuários podem ter vontade de votar no local que mais gostam, colocando esse
 ![ranking](./src/assets/images/ranking.png)
 
 ## Login
-So aquelas pessoas logadas podem acesar nesta secao, o admin pode criar o eliminar um ponto turistico.
+So aquelas pessoas logadas podem acesar nesta secao.
 ![login](./src/assets/images/login.png)
+
+O admin pode criar o eliminar um ponto turistico.
+![login](./src/assets/images/crude.png)
