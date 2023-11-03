@@ -6,7 +6,7 @@
       "description": "É um dos pontos turísticos mais badalados da capital amazonense",
       "ranking": 5,
       "id": 5,
-      "points": 7
+      "points": 8
     },
     {
       "title": "Lago Janauari",
@@ -14,15 +14,15 @@
       "description": "É uma das rotas fluviais mais visitadas da Amazônia",
       "ranking": 4,
       "id": 6,
-      "points": 4
+      "points": 11
     },
     {
       "title": "Relógio Municipal",
-      "imgs": "https://cdn.emtempo.com.br/img/normal/140000/Falta-de-banheiros-publicos-na-cidade-de-Manaus_FO_00143270_10.jpg?xid=496089",
+      "imgs": "https://www.amazonasemais.com.br/wp-content/uploads/2018/08/relogio-municipal.jpg",
       "description": "Famosa torre de pedra vermelha, localizada em frente a uma praça arborizada que abriga uma catedral, com um relógio ornamentado.",
       "ranking": 4,
       "id": 7,
-      "points": 12
+      "points": 14
     },
     {
       "title": "Museu do Porto",
@@ -38,7 +38,7 @@
       "description": "No Parque Senador Jefferson Peres são realizadas apresentações musicais e de dança de rua, shows com palhaços, malabaristas e ventríloquos, atividades circenses e de cinema. Além disso, são também promovidas atividades esportivas e caminhada orientada, com a presença de instrutores.",
       "ranking": 3,
       "id": 9,
-      "points": 5
+      "points": 6
     },
     {
       "title": "Cavernas na Amazônia",
@@ -54,7 +54,7 @@
       "description": "É a confluência do rio Negro, com águas mais escuras quase pretas, com o rio Solimões, como é chamado no Brasil o rio Amazonas, com águas mais límpidas e matiz argiloso.",
       "ranking": 5,
       "id": 11,
-      "points": 10
+      "points": 11
     },
     {
       "title": "Palácio da Justiça",
@@ -86,7 +86,7 @@
       "description": "O Palácio de Río Negro é um palácio residencial do século XX no Brasil que foi sede do governo e residência do governador do estado do Amazonas.",
       "ranking": 5,
       "id": 15,
-      "points": 11
+      "points": 16
     },
     {
       "title": "Teatro do Amazona",
@@ -143,8 +143,8 @@
     {
       "id": 4,
       "username": "rina",
-      "email": "rinavelazquez@gmail.com",
-      "password": "25f9e794323b453885f5181f1b624d0b"
+      "email": "rinvel@gmail.com",
+      "password": "123456"
     }
   ],
   "contatos": [

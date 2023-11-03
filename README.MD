@@ -1,11 +1,25 @@
-## TRILHAS
-* git clone git@github.com:Projeto-TRILHAS/Trilhas-TOP.git
-* cd Trilhas-TOP
-* npm i
+# TRILHAS TOP
+É uma interface de fácil navegação, onde o usuário pode encontrar informações sobre pontos turísticos de Manaus.
+![home](./src/assets/images/home.png)
 
-## Criando new Branch
-* git checkout -b nome_branch
-* criar seus arquivos
-* git add .
-* git commit -m "message"
-* git push origin main
+## Sobre
+Este projeto foi realizado com o objetivo de colocar em pratica os conhecimentos otidos no curso da Toti Diverdidade, utilizando html5, css3, bootstrap, react, api fake. 
+
+## Execução
+Para inicializar o projeto, e necessario acesar ao Api atraves da terminal com o siguente comando:
+-npm rum api
+
+Depois em outra aba do terminal colocamos o siguente:
+-npm start
+
+Por ultimo o projeto e aberto no browser!
+
+# Funcionalidaes
+
+## Ranking
+Os usuários podem ter vontade de votar no local que mais gostam, colocando esse local no topo do ranking.
+![ranking](./src/assets/images/ranking.png)
+
+## Login
+So aquelas pessoas logadas podem acesar nesta secao, o admin pode criar o eliminar um ponto turistico.
+![login](./src/assets/images/login.png)
