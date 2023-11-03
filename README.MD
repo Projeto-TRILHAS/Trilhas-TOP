@@ -14,7 +14,7 @@ Depois em outra aba do terminal colocamos o siguente:
 
 Por ultimo o projeto e aberto no browser!
 
-# Funcionalidaes
+# Funcionalidades
 
 ## Ranking
 Os usuários podem ter vontade de votar no local que mais gostam, colocando esse local no topo do ranking.
