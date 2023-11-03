@@ -24,5 +24,5 @@ Os usuários podem ter vontade de votar no local que mais gostam, colocando esse
 So aquelas pessoas logadas podem acesar nesta secao.
 ![login](./src/assets/images/login.png)
 
-O admin pode criar o eliminar um ponto turistico.
+O admin pode criar ou eliminar um ponto turistico.
 ![login](./src/assets/images/crude.png)
